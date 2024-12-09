@@ -20,7 +20,7 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
-            hold-trigger-key-positions = <39 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 40 41 38 37 36>;
+            hold-trigger-key-positions = <12 13 14 15 16 17>;
         };
 
         HMR: HMR {
@@ -29,7 +29,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 38 37 36 39 41 40>;
+            hold-trigger-key-positions = <18 19 20 21 22 23>;
             hold-trigger-on-release;
             flavor = "tap-preferred";
             tapping-term-ms = <280>;
@@ -68,10 +68,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W                &kp E        &kp R                &kp T         &kp Y                                &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &HML LEFT_CONTROL S  &HML LALT D  &HML LEFT_COMMAND F  &kp G         &kp H                                &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X                &kp C        &kp V                &kp B         &kp N                                &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                                       &kp LGUI     &mo 1                &kp RETURN    &mt RS(RA(RC(RIGHT_COMMAND))) SPACE  &mo 2  &kp RALT
+&kp TAB    &kp Q         &kp W                &kp E        &kp R                &kp T         &kp Y                                &kp U        &kp I        &kp O         &kp P            &kp BSPC
+&kp LCTRL  &HML LSHFT A  &HML LEFT_CONTROL S  &HML LALT D  &HML LEFT_COMMAND F  &kp G         &kp H                                &HMR RCMD J  &HMR RALT K  &HMR RCTRL L  &HMR RSHFT SEMI  &kp SQT
+&kp LSHFT  &kp Z         &kp X                &kp C        &kp V                &kp B         &kp N                                &kp M        &kp COMMA    &kp DOT       &kp FSLH         &kp ESC
+                                              &kp LGUI     &mo 1                &kp RETURN    &mt RS(RA(RC(RIGHT_COMMAND))) SPACE  &mo 2        &kp RALT
             >;
         };
 
