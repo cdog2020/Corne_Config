@@ -69,10 +69,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q         &kp W                &kp E        &kp R                &kp T         &kp Y                                    &kp U        &kp I        &kp O         &kp P            &kp BSPC
-&kp LCTRL  &HML LSHFT A  &HML LEFT_CONTROL S  &HML LALT D  &HML LEFT_COMMAND F  &kp G         &kp H                                    &HMR RCMD J  &HMR RALT K  &HMR RCTRL L  &HMR RSHFT SEMI  &kp SQT
-&kp LSHFT  &kp Z         &kp X                &kp C        &kp V                &kp B         &kp N                                    &kp M        &kp COMMA    &kp DOT       &kp FSLH         &kp ESC
-                                              &kp LGUI     &mo 1                &kp RETURN    &RHYPER RS(RA(RC(RIGHT_COMMAND))) SPACE  &mo 2        &kp RALT
+&kp TAB    &kp Q         &kp W                &kp E        &kp R                &kp T         &kp Y                                    &kp U            &kp I        &kp O         &kp P            &kp BSPC
+&kp LCTRL  &HML LSHFT A  &HML LEFT_CONTROL S  &HML LALT D  &HML LEFT_COMMAND F  &kp G         &kp H                                    &HMR LEFT_GUI J  &HMR RALT K  &HMR RCTRL L  &HMR RSHFT SEMI  &kp SQT
+&kp LSHFT  &kp Z         &kp X                &kp C        &kp V                &kp B         &kp N                                    &kp M            &kp COMMA    &kp DOT       &kp FSLH         &kp ESC
+                                              &kp LGUI     &mo 1                &kp RETURN    &RHYPER RS(RA(RC(RIGHT_COMMAND))) SPACE  &mo 2            &kp RALT
             >;
         };
 
